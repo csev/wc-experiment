@@ -18,10 +18,25 @@ chuck-div li {
 </style>
 </head>
 <body>
-<h1>Chuck's Web Component Experiment</h1>
+<h1>Chuck's custom tags without WC experiment</h1>
 <p>
-This is my challenge.
+In this experiment I am <b>not</b> using web components.  I am just inventing new tags and using
+them both in CSS and JavaScript.  In a sense my 'chuck-div' is like a div with a class.
+This approach appeals to me because when you look at the source in a browser it is "more semantic"
+and I can insure closing tags match opening tags when I develop.  I really don't like seeing 
+5 '&lt;/div&gt;' tags to close all of the different div tags we opened to effect nesting.
 </p>
+<p>
+I kind of see this as a starting point where I use markup that looks like web components
+but only use web components where I need something beyond what I can do in stock JS
+and CSS.  It lets me develop markup and evolve to web components. It lets me avoid making a 
+web component for everything right away.
+</p>
+<p>
+Surprisingly, it kind of works but I worry that this will break on different browsers.
+View source to and console to see what is up. you can click on the text in the chuck-tag as well.
+</p>
+<p><a href="index.htm">Back to the main page</a></p>
 <chuck-div>
 <p>
 Chuck tag 1
@@ -35,10 +50,14 @@ Chuck tag 1
 References:
 <ul>
 <li>Ref: <a href="https://www.w3schools.com/cssref/css_default_values.asp" target="_blank">
-Default styling for built-in tags.
+        Default styling for built-in tags.</a>
 </li>
 </ul>
 </chuck-div>
+
+<p>This is all in github at
+<a href="https://github.com/csev/wc-experiment" target="_blank">https://github.com/csev/wc-experiment</a>
+feel free to open an issue to talk about what I am trying to do.</p>
 
 <script>
 var matches = document.querySelectorAll("chuck-div");
