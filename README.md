@@ -18,7 +18,7 @@ about the way *I* want to use web components.
 I don't want to adopt a framework - I want to use browser functionality as it comes from the browser.
 In a way all I see all of the front end and back end frameworks as doing research in how web components
 need to function and informed the design and development of web component 
-implentaiton in modern browsers.  So that is a good thing.
+implentation in modern browsers.  So that is a good thing.
 
 But I do not want to develop code to any framework.   I want to develop a pattern that can work with 
 PHP, JQuery, and Bootstrap 3 or Java and Velocity.   I support far too much code that cannot afford 
