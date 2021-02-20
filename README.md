@@ -41,7 +41,7 @@ changing much anymore like Handlbars.   Cool, hip, recent and getting better rap
 all negative aspects of any framework
 
 JQuery is mature enough for me - but I want to move to vanilla JavaScript becaue JQuery did its job
-and fixed vanilla JavaScript.
+and shamed vanilla JavaScript into fixing itself.  #ThanksJQuery
 
 No Thanks
 ---------
