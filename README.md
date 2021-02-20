@@ -6,7 +6,7 @@ web components in my own development.  If web components are truly ready
 for the "big time" they should work in static HTML and you should be able
 to view source and understand what is going on.
 
-You can seem my playground at https://www.dr-chuck.com/wc-experiment/
+You can see my playground at https://www.dr-chuck.com/wc-experiment/
 
 It is simple, static, and crude.
 
