@@ -2,7 +2,7 @@ Dr. Chuck's Web Components Experiment
 =====================================
 
 This is a place where I will develop code to figure out how I want to use
-web components in my own development.  
+web components in my own development.
 I see the future of web applications as increasingly web components based.
 I see web components and JSON APIs as a great coding pattern regardless of your
 front-end approach and back-end approach.
@@ -17,11 +17,11 @@ It is simple, static, and crude.  I will add more sample code over time as I lea
 about the way *I* want to use web components.
 I don't want to adopt a framework - I want to use browser functionality as it comes from the browser.
 In a way all I see all of the front end and back end frameworks as doing research in how web components
-need to function and informed the design and development of web component 
+need to function and informed the design and development of web component
 implentation in modern browsers.  So that is a good thing.
 
-But I do not want to develop code to any framework.   I want to develop a pattern that can work with 
-PHP, JQuery, and Bootstrap 3 or Java and Velocity.   I support far too much code that cannot afford 
+But I do not want to develop code to any framework.   I want to develop a pattern that can work with
+PHP, JQuery, and Bootstrap 3 or Java and Velocity.   I support far too much code that cannot afford
 to rewrite itelf completely every time a framework development team sneezes.
 
 How I want to go about this
@@ -32,7 +32,7 @@ How I want to go about this
 * It is OK to download a static asset from a CDN - like a polyfill for older browsers - this needs
 to be pretty static - if it did not change for a year things won't break
 
-* I am OK with extending *one* thing like LitElement or HTMLElement - as long as that code is 
+* I am OK with extending *one* thing like LitElement or HTMLElement - as long as that code is
 so old and boring that it is in maintenance mode and will only issue new releases if something
 in browsers breaks it.  (kind of like JQuery).
 
@@ -48,7 +48,7 @@ No Thanks
 
 Many interested in web components are advocates of one or more "crutch" technologies that to me
 are fine ways to "prototype" web applications but not a good way to build a web application that
-needs to last 5-10 years without major rewrite.  If you are a VC-funded startup - you are trashing and 
+needs to last 5-10 years without major rewrite.  If you are a VC-funded startup - you are trashing and
 rewriting your code constantly - I can't afford to waste that kind of money on my software.  So I avoid
 quick "feel-good" solutions.
 
@@ -73,7 +73,7 @@ I don't want a framework I adopt to force me to do a complete rewrite on their s
 work with any markup themeing.   It won't surprise you that I like Bootstrap 3 and think
 Bootstrap 4 is a complete waste of time.
 
-* Please don't suggest I rewrite everything in Ruby on Rails and use HAML.  I am 
+* Please don't suggest I rewrite everything in Ruby on Rails and use HAML.  I am
 similarly disinclined to use Scala or Rust.  The server side should not matter.
 
 * Don't mention GraphQL or Apollo - the markup should be data store agnostic.
@@ -83,10 +83,10 @@ need write access to the htdocs folder to work because they compile their templa
 Giving the Apache process write access to the htdocs folder - what could go wrong?
 
 * I am not interested in the *amazing* web components you already have. I am sure you have the worlds
-most impressive button.  I already have buttons.  I use Bootstrap 3 to style them.  
-I want to make my higher-order own extendible web
-components with a focus on those adopting my approach to be able to extend my web components
-to add their own flavor.  I am guessing that your component library is a bunch of brittle spaghetti code
+most impressive button.  I already have buttons.  I use Bootstrap 3 to style them.  I want to
+make my higher-order own extendible web components with a focus on those adopting my approach
+to be able to extend my web components to add their own flavor.  I am guessing that your
+component library is a bunch of brittle spaghetti code
 that you update furiously and in non-upwards compatible ways every time a new browser is released.
 
 If it is not possible to build web components without resorting to these approaches - I will just
