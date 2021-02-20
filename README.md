@@ -75,16 +75,22 @@ Bootstrap 4 is a complete waste of time.
 
 * Please don't suggest I rewrite everything in Ruby on Rails and use HAML.  I am
 similarly disinclined to use Scala or Rust.  The server side should not matter.
+Using an "all-the-rage-at-the-palo-alto-coffee-shops" technology is a negative
+in my book.
 
-* Don't mention GraphQL or Apollo - the markup should be data store agnostic.
+* Don't mention GraphQL or Apollo - the markup should be data store agnostic.  These appeal to me
+but no one can tell me how they make subscriptions / notifications scale with the back-end is a
+relational database.  Just saying "magic" is not a sufficient technical description for me.
 
-* Even though I like PHP - don't tell me to use Laravel and Blade - they are dang impressive but they
+* Even though I like PHP - don't tell me to use Laravel and Blade - they are impressive on paper but they
 need write access to the htdocs folder to work because they compile their templates for performance.
 Giving the Apache process write access to the htdocs folder - what could go wrong?
 
 * I am not interested in the *amazing* web components you already have. I am sure you have the worlds
-most impressive button.  I already have buttons.  I use Bootstrap 3 to style them.  I want to
-make my higher-order own extendible web components with a focus on those adopting my approach
+most impressive button.
+I already have buttons.  I use the button tag and Bootstrap 3 to style them.
+I don't need to run Doom on my buttons.
+I want to make my higher-order own extendible web components with a focus on those adopting my approach
 to be able to extend my web components to add their own flavor.  I am guessing that your
 component library is a bunch of brittle spaghetti code
 that you update furiously and in non-upwards compatible ways every time a new browser is released.
