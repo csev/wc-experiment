@@ -56,19 +56,40 @@ are probably mature enough for me - but that only makes my point.
 
 * Please don't suggest that I use Polymer, Node, or any other slick way to "manufacture" web components.
 If we are still at the point where it is *impossible* to do web components without these
-"helper" technolgoes - I wil wait.
+"helper" technolgoes - I will wait.
 
 * No npm, bower, or other component manager - eventually I might be willing to so some kind of
-server side packaging / path patching to make the web components easier to maintain.
-But I want to see simple solutions that you see when you "view source" in a browser.
+server side packaging / path patching to make a large number of web components easier to maintain
+and more efficient to download.  But for my experiments, I want to see simple solutions that
+you see and fully understand when you "view source" in a browser.
 
 * Please don't suggest I use your webcomponent library like PatternFly. Patternfly 3 was
-markup and React based based - PatternFly 4 is React based.  I don't want to depend on
-a framework builder remaining aligned with my philosophy over time.  I don't want a framework
-I adopt to force me to do a complete rewrite on their schedule.
+markup or React based based - PatternFly 4 is React based - because they got lazy.  I don't
+want to depend on a framework builder remaining aligned with my philosophy over time.
+I don't want a framework I adopt to force me to do a complete rewrite on their schedule.
 
-* Please don't suggest I use a CSS library like Material Design.
+* Please don't suggest I use a CSS library like Material Design - the approach should
+work with any markup themeing.   It won't surprise you that I like Bootstrap 3 and think
+Bootstrap 4 is a complete waste of time.
 
-* Please don't suggest I rewrite everything in Ruby on Rails and use HAML.
+* Please don't suggest I rewrite everything in Ruby on Rails and use HAML.  I am 
+similarly disinclined to use Scala or Rust.  The server side should not matter.
 
 * Don't mention GraphQL or Apollo - the markup should be data store agnostic.
+
+* Even though I like PHP - don't tell me to use Laravel and Blade - they are dang impressive but they
+need write access to the htdocs folder to work because they compile their templates for performance.
+Giving the Apache process write access to the htdocs folder - what could go wrong?
+
+* I am not interested in the *amazing* web components you already have. I am sure you have the worlds
+most impressive button.  I already have buttons.  I use Bootstrap 3 to style them.  
+I want to make my higher-order own extendible web
+components with a focus on those adopting my approach to be able to extend my web components
+to add their own flavor.  I am guessing that your component library is a bunch of brittle spaghetti code
+that you update furiously and in non-upwards compatible ways every time a new browser is released.
+
+If it is not possible to build web components without resorting to these approaches - I will just
+keep waiting.  But I am actually quite confident that web components are mature enough for
+me to adopt and use in long-lived applications.
+
+
