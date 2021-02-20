@@ -1,0 +1,56 @@
+<html>
+<head>
+<style>
+chuck-div {
+  display: block;
+  color: blue;
+}
+chuck-bold {
+  font-weight: bold;
+}
+chuck-li {
+  display: list-item;
+}
+
+chuck-div li {
+  color: green;
+}
+</style>
+</head>
+<body>
+<h1>Chuck's Web Component Experiment</h1>
+<p>
+This is my challenge.
+</p>
+<chuck-div>
+<p>
+Chuck tag 1
+</p>
+<ul>
+<chuck-li>One <chuck-bold>bold <i>italic</i></chuck-bold></chuck-li>
+<chuck-li>Two</chuck-li>
+</ul>
+</chuck-div>
+<chuck-div>
+References:
+<ul>
+<li>Ref: <a href="https://www.w3schools.com/cssref/css_default_values.asp" target="_blank">
+Default styling for built-in tags.
+</li>
+</ul>
+</chuck-div>
+
+<script>
+var matches = document.querySelectorAll("chuck-div");
+console.log('matches', matches);
+matches.forEach(function(tag) {
+    console.log('chuck-div', tag);
+    tag.addEventListener('click', function() {
+        alert( "JS .click() called." );
+    });
+
+});
+</script>
+
+</body>
+

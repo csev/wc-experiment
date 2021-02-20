@@ -1,0 +1,47 @@
+<h1>Dr. Chuck Explores Web Components</h1>
+<p>
+I really want to use web components so I can build applications where thee UI can be dramatically
+restructured by applying a different layer of web components to the markup without changing the
+markup or web service APIs that support the markup.
+</p>
+<p>
+My goal is to be able to use the same markup to format a hierarchical threaded disussion to look like
+<a href="images/slack.png" target="_blank">Slack</a> or <a href="images/piazza.png" target="_blank">Piazza</a>.
+</p>
+<p>
+It is my hope to provide my thread discussion tool that generates web-component markup and
+a set of extendable/ replaceable web components to significantly reshape or refactor a
+threaded discussion UI.
+</p>
+<h1>Experiments</h1>
+<ul>
+    <li>Can I make up my own tags?  What browsers will break?</li>
+</li>
+
+<h1>The Rules</h1>
+<p>
+Here are some rules.  This is about markup - not your favorite framework.   If I can't see the solution
+when I "view source" and "inspect element" in a browser I am not interested.   First I want this to work
+without server side magic.
+</p>
+<ul>
+<li>You can do anything you want in markup</li>
+<li>It is OK to downlaod a static asset from a CDN - like a polyfill for older browsers</li>
+<li>I could tolerate a simple templating library that is old and rusty and not
+    changing much anymore like Handlbars.   Cool, hip, recent and getting better rapidly are
+    all negative aspects of any framework.</li>
+<li>Please don't suggest that I use React or any other client side framework.</li>
+<li>Please don't suggest that I use Polymer, Node, or any other slick way to "manufacture" web components.</li>
+<li>No npm, bower, or other component manager - eventually I might be willing to so some kind of 
+    server side packaging / path patching to make the web components easier to maintain.   
+    But I want to see simple solutions that you see when you "view source" in a browser.</li>
+<li>Please don't suggest I use your webcomponent library like PatternFly. Patternfly 3 was
+    markup and React based based - PatternFly 4 is React based.  I don't want to depend on
+    a framework builder remaining aligned with my philosophy over time.  I don't want a framework
+    I adopt to force me to do a complete rewrite on their schedule.</li>
+<li>Please don't suggest I use a CSS library like Material Design.</li>
+<li>Please don't suggest I rewrite everything in Ruby on Rails and use HAML.</li>
+<li>Don't mention GraphQL or Apollo - the markup should be data store agnostic.</li>
+</ul>
+
+
