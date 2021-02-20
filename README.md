@@ -2,18 +2,19 @@ Dr. Chuck's Web Components Experiment
 =====================================
 
 This is a place where I will develop code to figure out how I want to use
-web components in my own development.  If web components are truly ready
+web components in my own development.  
+I see the future of web applications as increasingly web components based.
+I see web components and JSON APIs as a great coding pattern regardless of your
+front-end approach and back-end approach.
+
+If web components are truly ready
 for the "big time" they should work in static HTML and you should be able
 to view source and understand what is going on.
 
 You can see my playground at https://www.dr-chuck.com/wc-experiment/
 
-It is simple, static, and crude.
-
-I see the future of web applications as increasingly web components based.
-I see web components and JSON APIs as a great coding pattern regardless of your
-front-end approach and back-end approach.
-
+It is simple, static, and crude.  I will add more sample code over time as I learn more
+about the way *I* want to use web components.
 I don't want to adopt a framework - I want to use browser functionality as it comes from the browser.
 In a way all I see all of the front end and back end frameworks as doing research in how web components
 need to function and informed the design and development of web component 
