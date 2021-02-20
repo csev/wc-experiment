@@ -1,5 +1,5 @@
-Dr. Chuck's Web Components Experiement
-======================================
+Dr. Chuck's Web Components Experiment
+=====================================
 
 This is a place where I will develop code to figure out how I want to use
 web components in my own development.  If web components are truly ready
