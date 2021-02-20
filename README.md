@@ -40,7 +40,7 @@ in browsers breaks it.  (kind of like JQuery).
 changing much anymore like Handlbars.   Cool, hip, recent and getting better rapidly are
 all negative aspects of any framework
 
-JQuery is mature enough for me - but I want to move to vanilla JavaScript becaue JQuery did its job
+JQuery is mature enough for me - but I want to move to vanilla JavaScript because JQuery did its job
 and shamed vanilla JavaScript into fixing itself.  #ThanksJQuery
 
 No Thanks
