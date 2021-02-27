@@ -1,0 +1,27 @@
+{
+  "name": "wc-experiment",
+  "version": "1.0.0",
+  "description": "Dr. Chuck's Web Components Experiment =====================================",
+  "main": "index.js",
+  "scripts": {
+    "empathise": "empathise install",
+    "start": "empathise install && http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csev/wc-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csev/wc-experiment/issues"
+  },
+  "homepage": "https://github.com/csev/wc-experiment#readme",
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "@adrianfish/empathise": "^0.1.9",
+    "http-server": "^0.12.3"
+  }
+}
