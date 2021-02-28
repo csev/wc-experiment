@@ -1,0 +1,43 @@
+<html>
+<head>
+<script type="module">
+  import { LitElement, html } from "./assets/lit-element/lit-element.js";
+  class AdriansDiv extends LitElement {
+
+    render() {
+      return html`
+        <h3>Adrian's Tag</h3>
+        <div>This is a placement of &lt;adrians-tag&gt;</div>
+      `;
+    }
+  }
+
+  if (!customElements.get("adrians-div")) {
+    customElements.define("adrians-div", AdriansDiv);
+  }
+</script>
+</head>
+<body>
+<h1>Adrian's Lit-element based tag using empathise</h1>
+<p><a href="index.html">Back to the main page</a></p>
+
+<adrians-div></adrians-div>
+
+<p>This is all in github at
+<a href="https://github.com/csev/wc-experiment" target="_blank">https://github.com/csev/wc-experiment</a>
+feel free to open an issue to talk about what I am trying to do.</p>
+
+<script>
+var matches = document.querySelectorAll("chuck-div");
+console.log('matches', matches);
+matches.forEach(function(tag) {
+    console.log('chuck-div', tag);
+    tag.addEventListener('click', function() {
+        alert( "JS .click() called." );
+    });
+
+});
+</script>
+
+</body>
+
