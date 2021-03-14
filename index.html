@@ -27,15 +27,25 @@ feel free to open an issue to talk about what I am trying to do.</p>
 <p>
 To make Adrian's tag work:
 <pre>
-    npm install
-    npm run-script empathise install
-    npx http-server
+npm install
+npm run-script empathise install
+npx http-server
 </pre>
 This empathises your build dependencies from package.json, so replaces the bare paths, copies those into "assets", 
 then starts up a basic web server on 8080. Take a look in the scripts section of package.json to see
 the start and empathise scripts.
 </p>
-        </li>
+</li>
+<li>
+        Can we run PatternFly?  Not yet - Some attempts.
+<pre>
+npm install @patternfly/patternfly --save
+npm install --save-dev @babel/core @babel/cli
+npm install --save-dev @babel/preset-react
+npm install --save-dev @babel/plugin-syntax-jsx
+npm run-script empathise install
+</pre>
+</li>
 </li>
 </ul>
 
